@@ -423,6 +423,122 @@ h2 {
 
 
 /*deixando responsivo para tablet*/
-@media screen and (max-width: 376px) {
+@media (max-width: 768px)  {
+    .banner-flex {
+        width: 100vw;
+        height: 100vh;
+    }
 
+    .banner-flex>img {
+        left: 25%;
+        margin-right: 50%;
+    }
+
+    .banner-flex__style {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-right: 0;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .banner-flex__title {
+        font-size: 2rem;
+    }
+
+    .banner-flex__paragraf {
+        font-size: 1rem;
+    }
+
+    .form-position {
+        position: absolute;
+        left: 5%;
+        top: 62%;
+        width: 90vw;
+    }
+
+    .form-position__infoStyle {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .form-position__values {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-position__values-flex>p {
+        left: 83.1%;
+    }
+
+    .mean-bmi {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mean-bmi>img {
+        margin-top: 40%;
+    }
+
+    .mean-bmi__flex {
+        margin-top: 20%;
+    }
+
+    .mean-bmi__flex {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .mean-bmi__flex>h1 {
+        font-size: 2rem;
+    }
+
+    .mean-bmi__flex>p {
+        font-size: 1rem;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .cards-flex {
+        margin-top: 28%;
+        padding: 26px;
+    }
+
+    .card01 {
+        margin: 3%;
+    }
+
+    .grid-footer__style {
+        width: 100%;
+        display: block;
+    }
+
+    .double-cards__style {
+        display: block;
+        margin: 54%;
+        top: -34%;
+        width: 100%;
+    }
+
+    .double-cards-2 {
+        margin: 174%;
+        display: block;
+        top: -128%;
+        width: 100%;
+    }
+
+    .title {
+        padding: 10px;
+        margin: 10px;
+        margin-bottom: 10%;
+    }
 }
